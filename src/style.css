@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container1 {
+  display: flex;
+  max-width: 1500px;
+  justify-content: space-between;
+}
+
+.header {
+  min-height: 100vh;
+}
+
+.header-left {
+  width: 80%;
+}
+
+.header-left img {
+  width: 98.7%;
+}
+
+.header-right {
+  margin-top: 35px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-nav svg:first-child {
+  margin-right: 30px;
+}
+
+.header-nav svg:nth-child(2) {
+  margin-right: 30px;
+}
+
+.header-nav a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #156963;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.header-nav button {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  background-color: #156963;
+  width: Fixed (111px);
+  height: Hug (36px);
+  padding: 8px 20px 8px 20px;
+  text-align: center;
+}
+
+.header-titles {
+  margin-top: 60px;
+  margin-left: 70px;
+}
+
+.header-titles h1 {
+  font-size: 68px;
+  color: #156963;
+  font-weight: 500;
+}
+
+.header-titles p {
+  font-size: 18px;
+  color: #2c1500;
+  margin-top: 20px;
+  width: 80%;
+  font-weight: 400;
+}
+
+.header-plants {
+  margin-left: 70px;
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-between;
+}
+
+.header-plants .prc {
+  display: flex;
+  align-items: center;
+}
+
+.header-plants div:nth-child(2) {
+  background-color: #156963;
+  color: white;
+  padding: 10px 30px;
+}
+
+.header-plants div:nth-child(1) {
+  padding: 10px 20px;
+}
+
+.header-plants div p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.header-plants div:first-child p {
+  margin-left: 5px;
+  color: #333333;
+}
+
+.header-plants div:nth-child(2) p {
+  margin-right: 5px;
+  color: #f2f2f2;
+}
+
+.header-plants div h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+/* Benefits */
+
+.container {
+  max-width: 1208px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.benefits-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefits-card {
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 15px;
+  width: 23%;
+}
+
+.benefits-card .ttl {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.benefits-card .ttl svg {
+  margin-right: 13px;
+}
+
+.benefits-card .ttl h3 {
+  color: #156963;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.benefits-card p {
+  color: #2c1500;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Plants */
+
+.plants {
+  min-height: 60vh;
+}
+
+.plants-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.plants-text h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.plants-text select {
+  font-size: 16px;
+  padding: 5px;
+  font-weight: 500;
+}
+
+.plants-row {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plants-row .plants-card {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.plants-row .plants-card img {
+  width: 200px;
+}
+
+.plants-row .plants-card p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.plants-row .plants-card h4 {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Buy */
+
+.buy {
+  min-height: 100vh;
+}
+
+.buy-wrapper {
+  display: flex;
+}
+
+.buy-wrapper .buy-left h1 {
+  color: #2c1500;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.buy-wrapper .buy-left p {
+  color: #2c1500;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.buy-wrapper .buy-left img {
+  width: 500px;
+}
+
+.buy-wrapper .buy-right img {
+  width: 500px;
+}
+
+/* Favourite */
+
+.favourite {
+  min-height: 55vh;
+}
+
+.favourite-text {
+  background-image: url(https://c0.wallpaperflare.com/preview/687/897/249/sun-room-spring-green-plant.jpg);
+  height: 300px;
+}
+
+.favourite-text h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 700;
+}
+
+.favourite-text h2 {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+/* Footer */
+
+.footer {
+  min-height: 50vh;
+}
+
+.footer hr {
+  margin-bottom: 50px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+  border: 1px solid;
+  width: 24%;
+}
+
+.footer-center1 {
+  border: 1px solid;
+  text-align: center;
+  width: 24%;
+}
+
+.footer-center2 {
+  border: 1px solid;
+  text-align: center;
+  width: 24%;
+}
+
+.footer-right {
+  border: 1px solid;
+  width: 24%;
+}
