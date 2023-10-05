@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
           <div className="footer-right">
             <h3>Berlangganan Email Kami</h3>
-            <input type="text" />
+            <input placeholder="Search" type="text" />
             <div>
               <button>Submit</button>
             </div>
